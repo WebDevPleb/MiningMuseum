@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Material Design for Bootstrap</title>
+    <title>Bitcoin Mining Museum</title>
     <!-- MDB icon -->
     <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
     <!-- Font Awesome -->
@@ -40,7 +40,7 @@
         }
       </style>
       <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="font-family: 'Bebas Neue', 'Roboto', sans-serif;font-size: 22px; letter-spacing: 2px;">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" style="font-family: 'Bebas Neue', 'Roboto', sans-serif;font-size: 22px; letter-spacing: 2px;">
         <div class="container">
           <a class="navbar-brand" href="index.html" data-mdb-toggle="animation" data-mdb-animation-start="onHover" data-mdb-animation-reset="true" data-mdb-animation="tada" style="font-size: 22px;">Bitcoin Mining Museum</a>
           <button
@@ -81,20 +81,47 @@
         <div
           id="intro-example"
           class="p-5 text-center bg-image ripple"
-          style="background-image: url('./img/shelf.jpg');"
+          style="background-image: url('./img/hash-wall.jpg'); "
         >
           <div class="mask" style="background-color: rgba(0, 0, 0, 0.7);">
             <div class="d-flex justify-content-center align-items-center h-100">
               <div class="text-white">
-                <h1 class="mb-3 text-uppercase display-2" style="font-family: 'Bebas Neue', 'Roboto', sans-serif;">The Worlds First <span style="color:#C68135;">Bitcoin</span> Mining Museum</h1>
+                <h1 class="mb-3  px-2 text-uppercase display-2" style="font-family: 'Bebas Neue', 'Roboto', sans-serif;">The Worlds First <span style="color:#C68135;">Bitcoin</span> Mining Museum</h1>
                 <h3 class="mb-4" style="font-family: 'Bebas Neue','Roboto', sans-serif;letter-spacing: 1px;">Brought To You By <a style="color:#C68135;" href="https://twitter.com/TheCoinDad">@TheCoinDad</a></h3>
                 <a
-                  class="btn btn-light" data-mdb-ripple-color="dark" data-mdb-toggle="animation" data-mdb-animation-reset="true" data-mdb-animation="tada"
+                  class="btn btn-light m-1" data-mdb-ripple-color="dark" data-mdb-toggle="animation" data-mdb-animation-reset="true" data-mdb-animation="tada"
                   href="gallery.html"
                   role="button"
                   rel="nofollow"
                   style="font-family: 'Bebas Neue', 'Roboto', sans-serif; letter-spacing: 2px; font-size: 22px;"
                 >Gallery</a>
+                <!-- Button trigger modal -->
+<button type="button" class="btn btn-light m-1" data-mdb-toggle="modal" data-mdb-target="#promo" style="font-family: 'Bebas Neue', 'Roboto', sans-serif; letter-spacing: 2px; font-size: 22px;">
+  Visit the Museum
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="promo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog bg-dark">
+    <div class="modal-content bg-dark">
+      <div class="modal-header">
+        <h5 class="modal-title" id="promo"><strong>See The Entire Collection at Mining Disrupt 2022</strong></h5>
+        
+      </div>
+      <div class="modal-body">Get 15% off your tickets at <strong>Mining Disrupt 2022</strong> using promo code: <strong><span style="color:#C68135;"><h4>TheCoinDad</h4></span></strong></div>
+      <div class="modal-footer justify-content-center">
+        <button type="button" class="btn btn-danger" data-mdb-dismiss="modal" style="font-family: 'Bebas Neue', 'Roboto', sans-serif; letter-spacing: 2px; font-size: 22px;">Close</button>
+        <a
+                  class="btn btn-success m-2" data-mdb-ripple-color="dark" data-mdb-toggle="animation" data-mdb-animation-reset="true" data-mdb-animation="tada"
+                  href="https://miningdisrupt.com/"
+                  role="button"
+                  rel="nofollow"
+                  style="font-family: 'Bebas Neue', 'Roboto', sans-serif; letter-spacing: 2px; font-size: 22px;"
+                >Get your tickets</a>
+      </div>
+    </div>
+  </div>
+</div>
               </div>
             </div>
           </div>
@@ -263,14 +290,15 @@
         <div class="container-fluid bg-dark" style="font-family: 'Bebas Neue', 'Roboto', sans-serif;letter-spacing: 2px;font-size: 18px;">
           <div class="row">
           <footer class="py-3 my-1">
-            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <!-- <ul class="nav justify-content-center border-bottom pb-3 mb-3">
               <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-muted">Home</a></li>
               <li class="nav-item"><a href="#about" class="nav-link px-2 text-muted">About</a></li>
               <li class="nav-item"><a href="#gallery" class="nav-link px-2 text-muted">Gallery</a></li>
               <li class="nav-item"><a href="#fun" class="nav-link px-2 text-muted">Fun Facts</a></li>
               <li class="nav-item"><a href="https://t.me/thecoindad" class="nav-link px-2 text-muted">Contact</a></li>
              
-            </ul>
+            </ul> -->
+            <p class="text-center"><a href="https://t.me/thecoindad"><i class="text-white fab fa-telegram fa-2x p-2"></i></a><a href="https://twitter.com/TheCoinDad"><i class="text-white fab fa-twitter fa-2x p-2"></i></a></p>
             <p class="text-center text-muted">&copy 2022 <a style="color:#C68135" href="https://twitter.com/TheCoinDad">TheCoinDad</a></p>
             <p class="text-center text-muted"> Website Created By <a style="color:#C68135" href="https://github.com/WebDevPleb">WebDevPleb</a></p>
           </footer>
