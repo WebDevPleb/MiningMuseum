@@ -1,315 +1,338 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Bitcoin Mining Museum</title>
-    <!-- MDB icon -->
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
-    <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-    />
-    <!-- Google Fonts Roboto -->
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
-    />
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"> 
-    <!-- MDB -->
-    <link rel="stylesheet" href="css/mdb.min.css" />
-    <link rel="stylesheet" href="css/custom.css" />
-  </head>
-  <body>
-    <!-- Start your project here-->
-    <header>
-      <!-- Intro settings -->
-      <style>
-        /* Default height for small devices */
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Bitcoin Mining Museum</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <!-- MDB -->
+  <link rel="stylesheet" href="css/mdb.min.css" />
+  <link rel="stylesheet" href="css/custom.css" />
+</head>
+
+<body>
+  <!-- Start your project here-->
+  <header>
+    <!-- Intro settings -->
+    <style>
+      /* Default height for small devices */
+      #intro-example {
+        height: 400px;
+      }
+
+      /* Height for devices larger than 992px */
+      @media (min-width: 992px) {
         #intro-example {
-          height: 400px;
+          height: 600px;
         }
-    
-        /* Height for devices larger than 992px */
-        @media (min-width: 992px) {
-          #intro-example {
-            height: 600px;
-          }
-        }
-      </style>
-      <!-- Navbar -->
-      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" style="font-family: 'Bebas Neue', 'Roboto', sans-serif;font-size: 22px; letter-spacing: 2px;">
-        <div class="container">
-          <a class="navbar-brand" href="index.html" data-mdb-toggle="animation" data-mdb-animation-start="onHover" data-mdb-animation-reset="true" data-mdb-animation="tada" style="font-size: 22px;">Bitcoin Mining Museum</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-mdb-toggle="collapse"
-            data-mdb-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <i class="fas fa-bars"></i>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav text-center">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="gallery.html">Gallery</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#fun">Fun Facts</a>
-              <li class="nav-item">
-                <a class="nav-link" href="https://t.me/thecoindad">Contact</a>
-              </li>
-            </ul>
+      }
+    </style>
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark"
+      style="font-family: 'Bebas Neue', 'Roboto', sans-serif;font-size: 22px; letter-spacing: 2px;">
+      <div class="container">
+        <a class="navbar-brand" href="index.html" data-mdb-toggle="animation" data-mdb-animation-start="onHover"
+          data-mdb-animation-reset="true" data-mdb-animation="tada" style="font-size: 22px;">Bitcoin Mining Museum</a>
+        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav text-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#fun">Fun Facts</a>
+            <li class="nav-item">
+              <a class="nav-link" href="https://t.me/thecoindad">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Navbar -->
+  <main>
+    <!-- Background image -->
+    <div id="intro-example" class="p-5 text-center bg-image ripple"
+      style="background-image: url('./img/hash-wall.jpg'); ">
+      <div class="mask" style="background-color: rgba(0, 0, 0, 0.7);">
+        <div class="d-flex justify-content-center align-items-center h-100">
+          <div class="text-white" data-mdb-toggle="animation" data-mdb-animation="zoom-in" data-mdb-animation-start="onLoad">
+            <h1 class="mb-3  px-2 text-uppercase display-2" style="font-family: 'Bebas Neue', 'Roboto', sans-serif;">The
+              Worlds First <span style="color:#C68135;">Bitcoin</span> Mining Museum</h1>
+            <h3 class="mb-4" style="font-family: 'Bebas Neue','Roboto', sans-serif;letter-spacing: 1px;">Brought To You
+              By
+              <a style="color:#C68135;" href="https://twitter.com/TheCoinDad">@TheCoinDad</a>
+            </h3>
+            <a class="btn btn-light m-1" data-mdb-ripple-color="dark" data-mdb-toggle="animation"
+              data-mdb-animation-reset="true" data-mdb-animation="tada" href="gallery.html" role="button" rel="nofollow"
+              style="font-family: 'Bebas Neue', 'Roboto', sans-serif; letter-spacing: 2px; font-size: 22px;">Gallery</a>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-light m-1" data-mdb-toggle="modal" data-mdb-target="#promo"
+              style="font-family: 'Bebas Neue', 'Roboto', sans-serif; letter-spacing: 2px; font-size: 22px;">
+              Visit the Museum
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="promo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog bg-dark">
+                <div class="modal-content bg-dark">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="promo"><strong>See The Entire Collection at Mining Disrupt 2022</strong>
+                    </h5>
+
+                  </div>
+                  <div class="modal-body">Get 15% off your tickets at <strong>Mining Disrupt 2022</strong> using promo
+                    code:
+                    <strong><span style="color:#C68135;">
+                        <h4>TheCoinDad</h4>
+                      </span></strong>
+                  </div>
+                  <div class="modal-footer justify-content-center">
+                    <button type="button" class="btn btn-danger" data-mdb-dismiss="modal"
+                      style="font-family: 'Bebas Neue', 'Roboto', sans-serif; letter-spacing: 2px; font-size: 22px;">Close</button>
+                    <a class="btn btn-success m-2" data-mdb-ripple-color="dark" data-mdb-toggle="animation"
+                      data-mdb-animation-reset="true" data-mdb-animation="tada" href="https://miningdisrupt.com/"
+                      role="button" rel="nofollow"
+                      style="font-family: 'Bebas Neue', 'Roboto', sans-serif; letter-spacing: 2px; font-size: 22px;">Get
+                      your tickets</a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </nav>
-    </header>
-      <!-- Navbar -->
-    <main>
-        <!-- Background image -->
-        <div
-          id="intro-example"
-          class="p-5 text-center bg-image ripple"
-          style="background-image: url('./img/hash-wall.jpg'); "
-        >
-          <div class="mask" style="background-color: rgba(0, 0, 0, 0.7);">
-            <div class="d-flex justify-content-center align-items-center h-100">
-              <div class="text-white">
-                <h1 class="mb-3  px-2 text-uppercase display-2" style="font-family: 'Bebas Neue', 'Roboto', sans-serif;">The Worlds First <span style="color:#C68135;">Bitcoin</span> Mining Museum</h1>
-                <h3 class="mb-4" style="font-family: 'Bebas Neue','Roboto', sans-serif;letter-spacing: 1px;">Brought To You By <a style="color:#C68135;" href="https://twitter.com/TheCoinDad">@TheCoinDad</a></h3>
-                <a
-                  class="btn btn-light m-1" data-mdb-ripple-color="dark" data-mdb-toggle="animation" data-mdb-animation-reset="true" data-mdb-animation="tada"
-                  href="gallery.html"
-                  role="button"
-                  rel="nofollow"
-                  style="font-family: 'Bebas Neue', 'Roboto', sans-serif; letter-spacing: 2px; font-size: 22px;"
-                >Gallery</a>
-                <!-- Button trigger modal -->
-<button type="button" class="btn btn-light m-1" data-mdb-toggle="modal" data-mdb-target="#promo" style="font-family: 'Bebas Neue', 'Roboto', sans-serif; letter-spacing: 2px; font-size: 22px;">
-  Visit the Museum
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="promo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog bg-dark">
-    <div class="modal-content bg-dark">
-      <div class="modal-header">
-        <h5 class="modal-title" id="promo"><strong>See The Entire Collection at Mining Disrupt 2022</strong></h5>
-        
-      </div>
-      <div class="modal-body">Get 15% off your tickets at <strong>Mining Disrupt 2022</strong> using promo code: <strong><span style="color:#C68135;"><h4>TheCoinDad</h4></span></strong></div>
-      <div class="modal-footer justify-content-center">
-        <button type="button" class="btn btn-danger" data-mdb-dismiss="modal" style="font-family: 'Bebas Neue', 'Roboto', sans-serif; letter-spacing: 2px; font-size: 22px;">Close</button>
-        <a
-                  class="btn btn-success m-2" data-mdb-ripple-color="dark" data-mdb-toggle="animation" data-mdb-animation-reset="true" data-mdb-animation="tada"
-                  href="https://miningdisrupt.com/"
-                  role="button"
-                  rel="nofollow"
-                  style="font-family: 'Bebas Neue', 'Roboto', sans-serif; letter-spacing: 2px; font-size: 22px;"
-                >Get your tickets</a>
       </div>
     </div>
-  </div>
-</div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Background image -->
-        
-        <!-- About -->
-                <section id="about" class="vh-25 pt-5"  style="background-color:#C68135;">
-                  <div class="container text-center h-100">
-                    
-                    <div class="row d-flex justify-content-center align-items-center h-100 pb-5">
-                      <div class="col col-lg-9 col-xl-7">
-                        <div class="card" style="border-radius: 15px;">
-                          <div class="card-body p-5">
-                            <div class="text-center mb-4 pb-2">
-                              <img class="rounded-circle" src="./img/tcd.jpg"
-                                alt="Bulb" width="100">
-                            </div>
-                
-                            <figure class="text-center mb-0">
-                              <blockquote class="blockquote">
-                                <p class="pb-3">
-                                  <i class="fas fa-quote-left fa-xs text-primary"></i>
-                                  <span class="lead font-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto aperiam impedit eaque soluta, animi a repellat nemo ipsa facilis ea, perspiciatis amet quis? Nemo laudantium debitis animi, vel inventore illum?</span>
-                                  <i class="fas fa-quote-right fa-xs text-primary"></i>
-                                </p>
-                              </blockquote>
-                              <figcaption class="blockquote-footer mb-0">
-                                The Coin Dad
-                              </figcaption>
-                            </figure>
-                
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </section>
-              </div>
-            </div>
-          </div>
-        </div>
+    <!-- Background image -->
 
-        <!--Gallery-->
-        <div id="gallery">
-        <div class="container-fluid bg-dark pb-5">
-          <div class="row text-center py-4 text-white"></div>
-          <div class="row gap-5 justify-content-center">
-            <div class="card pt-2" style="width: 18rem;">
-              <img src="./img/miners/bitmain/28.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Bitmain</h5>
-                <p class="card-text">Founded in 2013, Bitmain makes some of the best Bitcoin miners in the industry</p>
-                <a href="gallery.html#bitmain" class="btn btn-primary">Learn more</a>
-              </div>
-            </div>
-            <div class="card pt-2" style="width: 18rem;">
-              <img src="./img/miners/microbt/2.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">MicroBT</h5>
-                <p class="card-text">Founded in 2016, MicroBT is one of the top producers of Bitcoin miners</p>
-                <a href="gallery.html#microbt" class="btn btn-primary">Learn more</a>
-              </div>
-            </div>
-            <div class="card pt-2" style="width: 18rem;">
-              <img src="./img/miners/avalon/6.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Avalon</h5>
-                <p class="card-text">Founded in 2012, Avalon is one of the oldest manufacturers in the industry</p>
-                <a href="gallery.html#avalon" class="btn btn-primary">Learn more</a>
-              </div>
-            </div>
-            <div class="card pt-2" style="width: 18rem;">
-              <img src="./img/miners/gridseed/59.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">GridSeed</h5>
-                <p class="card-text">USB miners were very popular in the early days, they even replaced GPU mining</p>
-                <a href="gallery.html#gridseed" class="btn btn-primary">Learn more</a>
-              </div>
-            </div>
-            <div class="card pt-2" style="width: 18rem;">
-              <img src="./img/miners/bitmain/28.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Full Gallery</h5>
-                <p class="card-text">Miners you've seen, miners you've never seen. Find it all here!</p>
-                <a href="gallery.html" class="btn btn-primary">Learn more</a>
+    <!-- About -->
+    <section id="about" class="vh-25 pt-5" style="background-color:#C68135;">
+      <div class="container text-center h-100">
+
+        <div class="row d-flex justify-content-center align-items-center h-100 pb-5">
+          <div class="col col-lg-9 col-xl-7">
+            <div class="card" style="border-radius: 15px;">
+              <div class="card-body p-5">
+                <div class="text-center mb-4 pb-2">
+                  <img class="rounded-circle" src="./img/tcd.jpg" alt="Bulb" width="100">
+                </div>
+
+                <figure class="text-center mb-0">
+                  <blockquote class="blockquote">
+                    <p class="pb-3">
+                      <i class="fas fa-quote-left fa-xs text-primary"></i>
+                      <span class="lead font-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+                        aperiam impedit eaque soluta, animi a repellat nemo ipsa facilis ea, perspiciatis amet quis?
+                        Nemo laudantium debitis animi, vel inventore illum?</span>
+                      <i class="fas fa-quote-right fa-xs text-primary"></i>
+                    </p>
+                  </blockquote>
+                  <figcaption class="blockquote-footer mb-0">
+                    The Coin Dad
+                  </figcaption>
+                </figure>
+
               </div>
             </div>
           </div>
         </div>
       </div>
-      
-      <!--Fun Facts -->
-      <section id="fun" style="background-color: #C68135;">
-        <div class="container pb-5">
-          <div class="row text-center py-5"><h2 class="display-5 text-white" style="font-family: 'Bebas Neue', 'Roboto', sans-serif;letter-spacing: 2px;">Fun Facts</h2></div>
-          <div class="row gap-5 justify-content-center">
-            
-            <div class="card pt-2 shadow" style="width: 18rem;">
-              
-              <div class="card-body">
-                <h5 class="card-title">Bitmain</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, laboriosam iusto enim ipsum dolores architecto vel dolorem ab itaque voluptas expedita culpa obcaecati ad, optio, quos pariatur quo nulla vitae.</p>
-              
-              </div>
-            </div>
-            <div class="card pt-2 shadow" style="width: 18rem;">
-              
-              <div class="card-body">
-                <h5 class="card-title">Bitmain</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, laboriosam iusto enim ipsum dolores architecto vel dolorem ab itaque voluptas expedita culpa obcaecati ad, optio, quos pariatur quo nulla vitae.</p>
-              
-              </div>
-            </div><div class="card pt-2 shadow" style="width: 18rem;">
-              
-              <div class="card-body">
-                <h5 class="card-title">Bitmain</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, laboriosam iusto enim ipsum dolores architecto vel dolorem ab itaque voluptas expedita culpa obcaecati ad, optio, quos pariatur quo nulla vitae.</p>
-              
-              </div>
-            </div><div class="card pt-2 shadow" style="width: 18rem;">
-              
-              <div class="card-body">
-                <h5 class="card-title">Bitmain</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, laboriosam iusto enim ipsum dolores architecto vel dolorem ab itaque voluptas expedita culpa obcaecati ad, optio, quos pariatur quo nulla vitae.</p>
-              
-              </div>
-            </div><div class="card pt-2 shadow" style="width: 18rem;">
-              
-              <div class="card-body">
-                <h5 class="card-title">Bitmain</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, laboriosam iusto enim ipsum dolores architecto vel dolorem ab itaque voluptas expedita culpa obcaecati ad, optio, quos pariatur quo nulla vitae.</p>
-              
-              </div>
-            </div>
-            <div class="card pt-2 shadow" style="width: 18rem;">
-              
-              <div class="card-body">
-                <h5 class="card-title">MicroBT</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, laboriosam iusto enim ipsum dolores architecto vel dolorem ab itaque voluptas expedita culpa obcaecati ad, optio, quos pariatur quo nulla vitae.</p>
-              
-              </div>
-            </div>
-            <div class="card pt-2 shadow" style="width: 18rem;">
-              
-              <div class="card-body">
-                <h5 class="card-title">Avalon</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, laboriosam iusto enim ipsum dolores architecto vel dolorem ab itaque voluptas expedita culpa obcaecati ad, optio, quos pariatur quo nulla vitae.</p>
-              
-              </div>
-            </div>
-            <div class="card pt-2 shadow" style="width: 18rem;">
-              
-              <div class="card-body">
-                <h5 class="card-title">USB</h5>
-                <p class="card-text">SomLorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, laboriosam iusto enim ipsum dolores architecto vel dolorem ab itaque voluptas expedita culpa obcaecati ad, optio, quos pariatur quo nulla vitae.</p>
-              
-              </div>
-            </div>
-          </div>
-          </div>
-      
-      </section>
+    </section>
+    </div>
+    </div>
+    </div>
+    </div>
 
-        <!-- Footer -->
-        <div class="container-fluid bg-dark" style="font-family: 'Bebas Neue', 'Roboto', sans-serif;letter-spacing: 2px;font-size: 18px;">
-          <div class="row">
-          <footer class="py-3 my-1">
-            <!-- <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+    <!--Gallery-->
+    <div id="gallery">
+      <div class="container-fluid bg-dark pb-5">
+        <div class="row text-center py-4 text-white"></div>
+        <div class="row gap-5 justify-content-center">
+          <div class="card pt-2" style="width: 18rem;">
+            <img src="./img/miners/bitmain/28.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Bitmain</h5>
+              <p class="card-text">Founded in 2013, Bitmain makes some of the best Bitcoin miners in the industry</p>
+              <a href="gallery.html#bitmain" class="btn btn-primary">Learn more</a>
+            </div>
+          </div>
+          <div class="card pt-2" style="width: 18rem;">
+            <img src="./img/miners/microbt/2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">MicroBT</h5>
+              <p class="card-text">Founded in 2016, MicroBT is one of the top producers of Bitcoin miners</p>
+              <a href="gallery.html#microbt" class="btn btn-primary">Learn more</a>
+            </div>
+          </div>
+          <div class="card pt-2" style="width: 18rem;">
+            <img src="./img/miners/avalon/6.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Avalon</h5>
+              <p class="card-text">Founded in 2012, Avalon is one of the oldest manufacturers in the industry</p>
+              <a href="gallery.html#avalon" class="btn btn-primary">Learn more</a>
+            </div>
+          </div>
+          <div class="card pt-2" style="width: 18rem;">
+            <img src="./img/miners/gridseed/59.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">GridSeed</h5>
+              <p class="card-text">USB miners were very popular in the early days, they even replaced GPU mining</p>
+              <a href="gallery.html#gridseed" class="btn btn-primary">Learn more</a>
+            </div>
+          </div>
+          <div class="card pt-2" style="width: 18rem;">
+            <img src="./img/miners/bitmain/28.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Full Gallery</h5>
+              <p class="card-text">Miners you've seen, miners you've never seen. Find it all here!</p>
+              <a href="gallery.html" class="btn btn-primary">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Fun Facts -->
+    <section id="fun" style="background-color: #C68135;">
+      <div class="container pb-5">
+        <div class="row text-center py-5">
+          <h2 class="display-5 text-white" style="font-family: 'Bebas Neue', 'Roboto', sans-serif;letter-spacing: 2px;">
+            Fun Facts</h2>
+        </div>
+        <div class="row gap-5 justify-content-center">
+
+          <div class="card pt-2 shadow" style="width: 18rem;">
+
+            <div class="card-body">
+              <h5 class="card-title">Bitmain</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, laboriosam iusto enim
+                ipsum dolores architecto vel dolorem ab itaque voluptas expedita culpa obcaecati ad, optio, quos
+                pariatur quo nulla vitae.</p>
+
+            </div>
+          </div>
+          <div class="card pt-2 shadow" style="width: 18rem;">
+
+            <div class="card-body">
+              <h5 class="card-title">Bitmain</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, laboriosam iusto enim
+                ipsum dolores architecto vel dolorem ab itaque voluptas expedita culpa obcaecati ad, optio, quos
+                pariatur quo nulla vitae.</p>
+
+            </div>
+          </div>
+          <div class="card pt-2 shadow" style="width: 18rem;">
+
+            <div class="card-body">
+              <h5 class="card-title">Bitmain</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, laboriosam iusto enim
+                ipsum dolores architecto vel dolorem ab itaque voluptas expedita culpa obcaecati ad, optio, quos
+                pariatur quo nulla vitae.</p>
+
+            </div>
+          </div>
+          <div class="card pt-2 shadow" style="width: 18rem;">
+
+            <div class="card-body">
+              <h5 class="card-title">Bitmain</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, laboriosam iusto enim
+                ipsum dolores architecto vel dolorem ab itaque voluptas expedita culpa obcaecati ad, optio, quos
+                pariatur quo nulla vitae.</p>
+
+            </div>
+          </div>
+          <div class="card pt-2 shadow" style="width: 18rem;">
+
+            <div class="card-body">
+              <h5 class="card-title">Bitmain</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, laboriosam iusto enim
+                ipsum dolores architecto vel dolorem ab itaque voluptas expedita culpa obcaecati ad, optio, quos
+                pariatur quo nulla vitae.</p>
+
+            </div>
+          </div>
+          <div class="card pt-2 shadow" style="width: 18rem;">
+
+            <div class="card-body">
+              <h5 class="card-title">MicroBT</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, laboriosam iusto enim
+                ipsum dolores architecto vel dolorem ab itaque voluptas expedita culpa obcaecati ad, optio, quos
+                pariatur quo nulla vitae.</p>
+
+            </div>
+          </div>
+          <div class="card pt-2 shadow" style="width: 18rem;">
+
+            <div class="card-body">
+              <h5 class="card-title">Avalon</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, laboriosam iusto enim
+                ipsum dolores architecto vel dolorem ab itaque voluptas expedita culpa obcaecati ad, optio, quos
+                pariatur quo nulla vitae.</p>
+
+            </div>
+          </div>
+          <div class="card pt-2 shadow" style="width: 18rem;">
+
+            <div class="card-body">
+              <h5 class="card-title">USB</h5>
+              <p class="card-text">SomLorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, laboriosam iusto
+                enim ipsum dolores architecto vel dolorem ab itaque voluptas expedita culpa obcaecati ad, optio, quos
+                pariatur quo nulla vitae.</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Footer -->
+    <div class="container-fluid bg-dark"
+      style="font-family: 'Bebas Neue', 'Roboto', sans-serif;letter-spacing: 2px;font-size: 18px;">
+      <div class="row">
+        <footer class="py-3 my-1">
+          <!-- <ul class="nav justify-content-center border-bottom pb-3 mb-3">
               <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-muted">Home</a></li>
               <li class="nav-item"><a href="#about" class="nav-link px-2 text-muted">About</a></li>
               <li class="nav-item"><a href="#gallery" class="nav-link px-2 text-muted">Gallery</a></li>
               <li class="nav-item"><a href="#fun" class="nav-link px-2 text-muted">Fun Facts</a></li>
               <li class="nav-item"><a href="https://t.me/thecoindad" class="nav-link px-2 text-muted">Contact</a></li>
-             
-            </ul> -->
-            <p class="text-center"><a href="https://t.me/thecoindad"><i class="text-white fab fa-telegram fa-2x p-2"></i></a><a href="https://twitter.com/TheCoinDad"><i class="text-white fab fa-twitter fa-2x p-2"></i></a></p>
-            <p class="text-center text-muted">&copy 2022 <a style="color:#C68135" href="https://twitter.com/TheCoinDad">TheCoinDad</a></p>
-            <p class="text-center text-muted"> Website Created By <a style="color:#C68135" href="https://github.com/WebDevPleb">WebDevPleb</a></p>
-          </footer>
-        </div>
-        </div>
-      </main>
-    <!-- End your project here-->
 
-    <!-- MDB -->
-    <script type="text/javascript" src="js/mdb.min.js"></script>
-    <!-- Custom scripts -->
-    <script type="text/javascript"></script>
-  </body>
+            </ul> -->
+          <p class="text-center"><a href="https://t.me/thecoindad"><i
+                class="text-white fab fa-telegram fa-2x p-2"></i></a><a href="https://twitter.com/TheCoinDad"><i
+                class="text-white fab fa-twitter fa-2x p-2"></i></a></p>
+          <p class="text-center text-muted">&copy 2022 <a style="color:#C68135"
+              href="https://twitter.com/TheCoinDad">TheCoinDad</a></p>
+          <p class="text-center text-muted"> Website Created By <a style="color:#C68135"
+              href="https://github.com/WebDevPleb">WebDevPleb</a></p>
+        </footer>
+      </div>
+    </div>
+  </main>
+  <!-- End your project here-->
+
+  <!-- MDB -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Custom scripts -->
+  <script type="text/javascript"></script>
+</body>
+
 </html>
