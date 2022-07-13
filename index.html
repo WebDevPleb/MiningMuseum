@@ -57,10 +57,10 @@
               <a class="nav-link" href="advisors.html">Advisors</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="gallery.html">Gallery</a>
+              <a class="nav-link" href="gallery.html" data-mdb-smooth-scroll="smooth-scroll" data-mdb-offset="50">Gallery</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index.html#fun" data-mdb-smooth-scroll="smooth-scroll" data-mdb-offset="30">Fun Facts</a>
+              <a class="nav-link" href="index.html#fun" data-mdb-smooth-scroll="smooth-scroll" data-mdb-offset="50">Fun Facts</a>
             <li class="nav-item">
               <a class="nav-link" href="https://t.me/thecoindad">Contact</a>
             </li>
@@ -104,41 +104,38 @@
     <!-- Background image -->
 
     <!-- About -->
-    <section id="about"   data-mdb-toggle="animation"
+    <div class="containter"><a class="anchor" id="about"></a></div>
+    <section data-mdb-toggle="animation"
     data-mdb-animation-start="onScroll"
     data-mdb-animation-show-on-load="false"
-    data-mdb-animation="slide-in-up" class="vh-25 pt-5" style="background-color:#C68135;">
-      <div class="container text-center h-100">
-
-        <div class="row d-flex justify-content-center align-items-center h-100 pb-5">
-          <div class="col col-lg-9 col-xl-7">
-            <div class="card" style="border-radius: 15px;">
-              <div class="card-body p-5">
-                <div class="text-center mb-4 pb-2">
-                  <img class="rounded-circle" src="./img/tcd.jpg" alt="Bulb" width="100">
-                </div>
-
-                <figure class="text-center mb-0">
-                  <blockquote class="blockquote">
-                    <p class="pb-3">
-                      <i class="fas fa-quote-left fa-xs text-primary"></i>
-                      <span class="lead font-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
-                        aperiam impedit eaque soluta, animi a repellat nemo ipsa facilis ea, perspiciatis amet quis?
-                        Nemo laudantium debitis animi, vel inventore illum?</span>
-                      <i class="fas fa-quote-right fa-xs text-primary"></i>
-                    </p>
-                  </blockquote>
-                  <figcaption class="blockquote-footer mb-0">
-                    The Coin Dad
-                  </figcaption>
-                </figure>
-                <a class="btn btn-dark mt-4" data-mdb-ripple-color="dark" data-mdb-toggle="animation"
-              data-mdb-animation-reset="true" data-mdb-animation="tada" href="#" role="button" rel="nofollow"
-              style="font-family: 'Bebas Neue', 'Roboto', sans-serif; letter-spacing: 2px; font-size: 22px;background-color:#C68135;">Learn More</a>
+    data-mdb-animation="slide-in-up" class="pt-5" style="background-color:#C68135;">
+      <div class="container">
+        <div class="row text-center pb-4 text-white"><h2 class="display-5 text-white" style="font-family: 'Bebas Neue', 'Roboto', sans-serif;letter-spacing: 2px;">
+          meet the curator</h2></div>
+        <div class="container pb-5">
+        <div class="row gap-5 justify-content-center">
+            <div class="card" style="max-width: 800px;">
+              <div class="row g-0">
+                  <div class="col-md-4  pt-3">
+                      <img src="./img/tb.jpg" alt="TheCoinDad"
+                          class="img-fluid rounded-start img-thumbnail shadow mb-3" />
+                          <p class="text-center">North Carolina, USA <i class="flag flag-united-states"></i><br>Mining Since 2017</p>
+                  </div>
+                  <div class="col-md-8">
+                      <div class="card-body">
+                          <div class="text-center">
+                              <h4>TheCoinDad</h4>
+                              <h6>CEO of <a href="https://thecoindad.com/"> TheCoinDad LLC</a></h6>
+                              
+                          </div>
+                          <p class="card-text">As a Military Veteran, Tobias Barbir traveled to 30 different countries with 25 years in logistics and gained a love for Bitcoin when he received his first S9 miner inside a beer cooler in early 2017, TheCoinDad has grown his presence and trust in the Bitcoin mining community. Since then, he has learned to repair miners, deploy large projects, train new techs, consult on mining sites, broker miner deals from small to large, and over time he started collecting mining machines along the way. It was not until 2021 that he realized he might have the most extensive Bitcoin mining collection in the world and decided to focus on preserving the history of Bitcoin mining. That is how the Bitcoin Mining Museum was born. He started to collect data from the early days alongside his collection of over 75 different Bitcoin mining machines. To this day, he is still actively adding to this collection.</p>
+                      </div>
+                  </div>
               </div>
-            </div>
           </div>
+          
         </div>
+      </div>
       </div>
     </section>
     </div>
@@ -147,19 +144,20 @@
     </div>
 
     <!--Gallery-->
-    <div id="gallery" data-mdb-toggle="animation"
+    <div data-mdb-toggle="animation"
     data-mdb-animation-start="onScroll"
     data-mdb-animation-show-on-load="false"
     data-mdb-animation="slide-in-up">
       <div class="container-fluid bg-dark pb-5">
-        <div class="row text-center py-4 text-white"></div>
+        <div class="row text-center py-5 text-white"><h2 class="display-5 text-white" style="font-family: 'Bebas Neue', 'Roboto', sans-serif;letter-spacing: 2px;">
+          discover the Evolution of sha256 mining</h2></div>
         <div class="row gap-5 justify-content-center">
           <div class="card pt-2" style="width: 18rem;">
             <img src="./img/miners/bitmain/28.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Bitmain</h5>
               <p class="card-text">Founded in 2013, Bitmain makes some of the best Bitcoin miners in the industry</p>
-              <a href="gallery.html#bitmain" class="btn btn-primary">Learn more</a>
+              <a href="gallery.html#bitmain" class="btn text-white" style="background-color: #C68135;">Learn more</a>
             </div>
           </div>
           <div class="card pt-2" style="width: 18rem;">
@@ -167,7 +165,7 @@
             <div class="card-body">
               <h5 class="card-title">MicroBT</h5>
               <p class="card-text">Founded in 2016, MicroBT is one of the top producers of Bitcoin miners</p>
-              <a href="gallery.html#microbt" class="btn btn-primary">Learn more</a>
+              <a href="gallery.html#microbt" class="btn text-white" style="background-color: #C68135;">Learn more</a>
             </div>
           </div>
           <div class="card pt-2" style="width: 18rem;">
@@ -175,7 +173,7 @@
             <div class="card-body">
               <h5 class="card-title">Avalon</h5>
               <p class="card-text">Founded in 2012, Avalon is one of the oldest manufacturers in the industry</p>
-              <a href="gallery.html#avalon" class="btn btn-primary">Learn more</a>
+              <a href="gallery.html#avalon" class="btn text-white" style="background-color: #C68135;">Learn more</a>
             </div>
           </div>
           <div class="card pt-2" style="width: 18rem;">
@@ -183,7 +181,7 @@
             <div class="card-body">
               <h5 class="card-title">GridSeed</h5>
               <p class="card-text">USB miners were very popular in the early days, they even replaced GPU mining</p>
-              <a href="gallery.html#gridseed" class="btn btn-primary">Learn more</a>
+              <a href="gallery.html#gridseed" class="btn text-white" style="background-color: #C68135;">Learn more</a>
             </div>
           </div>
           <div class="card pt-2" style="width: 18rem;">
@@ -191,7 +189,7 @@
             <div class="card-body">
               <h5 class="card-title">Full Gallery</h5>
               <p class="card-text">Miners you've seen, miners you've never seen. Find it all here!</p>
-              <a href="gallery.html" class="btn btn-primary">Learn more</a>
+              <a href="gallery.html" class="btn text-white" style="background-color: #C68135;">Learn more</a>
               <div id="fun"></div>
             </div>
           </div>
@@ -199,7 +197,7 @@
       </div>
     </div>
 
-    <div id="fun-facts"></div>
+    <div class="container"><a class="anchor" id="fun-facts"></a></div>
     <!--Fun Facts -->
     <section data-mdb-toggle="animation"
     data-mdb-animation-start="onScroll"
@@ -210,33 +208,40 @@
           <h2 class="display-5 text-white" style="font-family: 'Bebas Neue', 'Roboto', sans-serif;letter-spacing: 2px;">
             Fun Facts</h2>
         </div>
-        <div class="row gap-5 justify-content-center">
+        <div class="lightbox">
+        <div class="row gap-5 justify-content-center"> 
           <div class="card pt-2 shadow" style="width: 18rem;">
+            <img src="./img/miners/bitmain/61-cc.png" class="img-fluid rounded-start img-thumbnail shadow" alt="Bitmain U1"/>
             <div class="card-body">
-              <p class="card-text">It would take 59,375 Bitmain U1's (released 2014) to generate the same amount of hashrate as a Bitmain S19 (released 2020)</p>
+              <p class="card-text">It would take 59,375 Bitmain U1's (released 2014) to generate the same amount of hashrate as a Bitmain S19 (released 2020). Running this many U1's would also use 118,750 watts, compared to the S19's power consumption of only 3,250 watts.</p>
             </div>
           </div>
           <div class="card pt-2 shadow" style="width: 18rem;">
+            <img src="./img/auction.jpg" class="img-fluid rounded-start img-thumbnail shadow" alt="autcion screenshot"/>
             <div class="card-body">
               <p class="card-text">In November 2013, the first batch of Bitmain S1 miners were sold on <a href="https://bitcointalk.org/index.php?topic=341620.0">BitcoinTalk.org</a>, by auction, with a starting price of 1 BTC each. Only 20 units were available. The highest bid was 5 BTC, or ~$4,000 USD. </p>
             </div>
           </div>
           <div class="card pt-2 shadow" style="width: 18rem;">
+            <img src="./img/coins.jpg" class="img-fluid rounded-start img-thumbnail shadow" alt="top 15 coins"/>
             <div class="card-body">
               <p class="card-text">The top 10 coins, by market cap, at the time of the Bitmain S1 auction in November 2013, were Bitcoin, Litecoin, XRP, Peercoin, Namecoin, BitShares, Feathercoin, Novacoin, Primecoin, and WorldCoin. Only 3 of these coins are still around today, including Bitcoin, Litecoin, and XRP. </p>
             </div>
           </div>
           <div class="card pt-2 shadow" style="width: 18rem;">
+            <img src="./img/genesis.jpg" class="img-fluid rounded-start img-thumbnail shadow" alt="autcion screenshot"/>
             <div class="card-body">
-              <p class="card-text"><a href="https://en.wikipedia.org/wiki/Satoshi_Nakamoto">Satoshi Nakamoto</a>, the pseudonymous creator of Bitcoin, embedded a secret message into the <a href="https://bitcoinexplorer.org/block/000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f">first Bitcoin block</a>, often refered to as the Genesis Block, ever to be mined. The message reads:<br><br><span class="fst-italic">The Times 03/Jan/2009 Chancellor on brink of second bailout for banks</span></p>
+              <p class="card-text"><a href="https://en.wikipedia.org/wiki/Satoshi_Nakamoto">Satoshi Nakamoto</a>, the pseudonymous creator of Bitcoin, embedded a message into the <a href="https://bitcoinexplorer.org/block/000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f">first Bitcoin block</a>, often refered to as the Genesis Block, ever to be mined. The message reads:<br><br><span class="fst-italic">The Times 03/Jan/2009 Chancellor on brink of second bailout for banks</span></p>
             </div>
           </div>
           <div class="card pt-2 shadow" style="width: 18rem;">
+            <img src="./img/hal.PNG" class="img-fluid rounded-start img-thumbnail shadow" alt="hal Finney"/>
             <div class="card-body">
               <p class="card-text">The <a href="https://bitcoinexplorer.org/tx/f4184fc596403b9d638783cf57adfe4c75c605f6356fbc91338530e9831e9e16@170">first peer-to-peer Bitcoin transactoin</a> was from Satoshi Nakamoto to <a href="https://en.wikipedia.org/wiki/Hal_Finney_(computer_scientist)">Hal Finney</a>, only 8 days after the Genesis Block was mined. As a test, Satoshi sent Hal 10 BTC.</p>
             </div>
           </div>
           <div class="card pt-2 shadow" style="width: 18rem;">
+            <img src="./img/yifu.jpg" class="img-fluid rounded-start img-thumbnail shadow" alt="yifu gua"/>
             <div class="card-body">
               <p class="card-text">Yifu Gua is the inventor of the first ASIC Bitcoin miner ever made, the Avalon 1.</p>
             </div>
@@ -257,6 +262,7 @@
           </div>
         </div>
       </div>
+    </div>
 
     </section>
 
@@ -287,10 +293,10 @@
       </div>
     </div>
     <!-- Sticky Promo NavBar-->
-    <div class="container">
+    <div class="container" style="max-width: 540px;">
     <nav class="navbar fixed-bottom navbar-dark bg-dark" style="font-family: 'Bebas Neue', 'Roboto', sans-serif;font-size: 22px; letter-spacing: 2px;">
       <div class="container-fluid justify-content-center">
-        <div class="row w-30"><h5 class="text-white text-center">see the museum live at mining disrupt 2022</h5> <a class="pulsate btn btn-light" data-mdb-ripple-color="dark" href="https://www.eventbrite.com/e/mining-disrupt-conference-2022-miami-florida-tickets-268230262937?discount=thecoindad" role="button" rel="nofollow"
+        <div class="row"><h5 class="text-white text-center">see the museum live at mining disrupt 2022</h5> <a class="pulsate btn btn-success" data-mdb-ripple-color="dark" href="https://www.eventbrite.com/e/mining-disrupt-conference-2022-miami-florida-tickets-268230262937?discount=thecoindad" role="button" rel="nofollow"
           style="font-family: 'Bebas Neue', 'Roboto', sans-serif; letter-spacing: 2px; font-size: 18px;">get tickets 15% off</a></div>
       </div>
     </div>
@@ -302,6 +308,7 @@
   <script type="text/javascript" src="js/mdb.min.js"></script>
   <!-- Custom scripts -->
   <script type="text/javascript" src="js/custom.js"></script>
+  
 </body>
 
 </html>
