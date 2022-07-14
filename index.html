@@ -36,7 +36,7 @@
       }
     </style>
     <!-- Navbar -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark"
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark"
       style="font-family: 'Bebas Neue', 'Roboto', sans-serif;font-size: 22px; letter-spacing: 2px;">
       <div class="container">
         <a class="navbar-brand" href="index.html" data-mdb-toggle="animation" data-mdb-animation-start="onHover"
@@ -57,10 +57,10 @@
               <a class="nav-link" href="advisors.html">Advisors</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="gallery.html" data-mdb-smooth-scroll="smooth-scroll" data-mdb-offset="50">Gallery</a>
+              <a class="nav-link" href="gallery.html">Gallery</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index.html#fun" data-mdb-smooth-scroll="smooth-scroll" data-mdb-offset="50">Fun Facts</a>
+              <a class="nav-link" href="index.html#fun-facts">Fun Facts</a>
             <li class="nav-item">
               <a class="nav-link" href="https://t.me/thecoindad">Contact</a>
             </li>
@@ -83,6 +83,7 @@
   <!-- Navbar -->
   <main>
     <!-- Background image -->
+
     <div id="intro-example" class="p-5 text-center bg-image ripple"
       style="background-image: url('./img/hash-wall.jpg'); ">
       <div class="mask" style="background-color: rgba(0, 0, 0, 0.7);">
@@ -104,11 +105,12 @@
     <!-- Background image -->
 
     <!-- About -->
-    <div class="containter"><a class="anchor" id="about"></a></div>
+    <div id="about"></div>
     <section data-mdb-toggle="animation"
     data-mdb-animation-start="onScroll"
     data-mdb-animation-show-on-load="false"
-    data-mdb-animation="slide-in-up" class="pt-5" style="background-color:#C68135;">
+    data-mdb-animation="slide-in-up" 
+    class="pt-5" style="background-color:#C68135;">
       <div class="container">
         <div class="row text-center pb-4 text-white"><h2 class="display-5 text-white" style="font-family: 'Bebas Neue', 'Roboto', sans-serif;letter-spacing: 2px;">
           meet the curator</h2></div>
@@ -197,13 +199,13 @@
       </div>
     </div>
 
-    <div class="container"><a class="anchor" id="fun-facts"></a></div>
+    
     <!--Fun Facts -->
     <section data-mdb-toggle="animation"
     data-mdb-animation-start="onScroll"
     data-mdb-animation-show-on-load="false"
     data-mdb-animation="slide-in-up" style="background-color: #C68135;">
-      <div class="container pb-5">
+      <div class="container pb-5"><div id="fun-facts"></div>
         <div class="row text-center py-5">
           <h2 class="display-5 text-white" style="font-family: 'Bebas Neue', 'Roboto', sans-serif;letter-spacing: 2px;">
             Fun Facts</h2>
@@ -217,31 +219,31 @@
             </div>
           </div>
           <div class="card pt-2 shadow" style="width: 18rem;">
-            <img src="./img/auction.jpg" class="img-fluid rounded-start img-thumbnail shadow" alt="autcion screenshot"/>
+            <img src="./img/auction.jpg" class="img-fluid rounded-start img-thumbnail shadow" alt="Bitmain S1 autcion"/>
             <div class="card-body">
-              <p class="card-text">In November 2013, the first batch of Bitmain S1 miners were sold on <a href="https://bitcointalk.org/index.php?topic=341620.0">BitcoinTalk.org</a>, by auction, with a starting price of 1 BTC each. Only 20 units were available. The highest bid was 5 BTC, or ~$4,000 USD. </p>
+              <p class="card-text">In November 2013, the first batch of Bitmain S1 miners were sold on <a href="https://bitcointalk.org/index.php?topic=341620.0">BitcoinTalk.org</a>, by auction, with a starting price of 1 BTC each. Only 20 units were available. The highest bid was 5 BTC, or ~$4,000 USD (As of July 2022, with the current Bitcoin price being $20,000, this would be $100,000). </p>
             </div>
           </div>
           <div class="card pt-2 shadow" style="width: 18rem;">
-            <img src="./img/coins.jpg" class="img-fluid rounded-start img-thumbnail shadow" alt="top 15 coins"/>
+            <img src="./img/coins.jpg" class="img-fluid rounded-start img-thumbnail shadow" alt="Top 15 coins  November 21st 2013"/>
             <div class="card-body">
               <p class="card-text">The top 10 coins, by market cap, at the time of the Bitmain S1 auction in November 2013, were Bitcoin, Litecoin, XRP, Peercoin, Namecoin, BitShares, Feathercoin, Novacoin, Primecoin, and WorldCoin. Only 3 of these coins are still around today, including Bitcoin, Litecoin, and XRP. </p>
             </div>
           </div>
           <div class="card pt-2 shadow" style="width: 18rem;">
-            <img src="./img/genesis.jpg" class="img-fluid rounded-start img-thumbnail shadow" alt="autcion screenshot"/>
+            <img src="./img/genesis.jpg" class="img-fluid rounded-start img-thumbnail shadow" alt="Bitcoin Genesis Block"/>
             <div class="card-body">
               <p class="card-text"><a href="https://en.wikipedia.org/wiki/Satoshi_Nakamoto">Satoshi Nakamoto</a>, the pseudonymous creator of Bitcoin, embedded a message into the <a href="https://bitcoinexplorer.org/block/000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f">first Bitcoin block</a>, often refered to as the Genesis Block, ever to be mined. The message reads:<br><br><span class="fst-italic">The Times 03/Jan/2009 Chancellor on brink of second bailout for banks</span></p>
             </div>
           </div>
           <div class="card pt-2 shadow" style="width: 18rem;">
-            <img src="./img/hal.PNG" class="img-fluid rounded-start img-thumbnail shadow" alt="hal Finney"/>
+            <img src="./img/hal.PNG" class="img-fluid rounded-start img-thumbnail shadow" alt="Hal Finney"/>
             <div class="card-body">
               <p class="card-text">The <a href="https://bitcoinexplorer.org/tx/f4184fc596403b9d638783cf57adfe4c75c605f6356fbc91338530e9831e9e16@170">first peer-to-peer Bitcoin transactoin</a> was from Satoshi Nakamoto to <a href="https://en.wikipedia.org/wiki/Hal_Finney_(computer_scientist)">Hal Finney</a>, only 8 days after the Genesis Block was mined. As a test, Satoshi sent Hal 10 BTC.</p>
             </div>
           </div>
           <div class="card pt-2 shadow" style="width: 18rem;">
-            <img src="./img/yifu.jpg" class="img-fluid rounded-start img-thumbnail shadow" alt="yifu gua"/>
+            <img src="./img/yifu.jpg" class="img-fluid rounded-start img-thumbnail shadow" alt="Yifu Gua"/>
             <div class="card-body">
               <p class="card-text">Yifu Gua is the inventor of the first ASIC Bitcoin miner ever made, the Avalon 1.</p>
             </div>
@@ -265,7 +267,7 @@
     </div>
 
     </section>
-
+  </main>
     <!-- Footer -->
     <div class="container-fluid bg-dark mb-5" data-mdb-toggle="animation"
     data-mdb-animation-start="onScroll"
@@ -274,14 +276,13 @@
       style="font-family: 'Bebas Neue', 'Roboto', sans-serif;letter-spacing: 2px;font-size: 18px;">
       <div class="row">
         <footer class="py-3 my-1">
-          <!-- <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-              <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-muted">Home</a></li>
+         <ul class="nav justify-content-center border-bottom pb-3 mb-3" style="letter-spacing: 3px;">
+              <li class="nav-item"><a href="index.html" class="nav-link px-2 text-white">Home</a></li>
               <li class="nav-item"><a href="#about" class="nav-link px-2 text-muted">About</a></li>
-              <li class="nav-item"><a href="#gallery" class="nav-link px-2 text-muted">Gallery</a></li>
-              <li class="nav-item"><a href="#fun" class="nav-link px-2 text-muted">Fun Facts</a></li>
+              <li class="nav-item"><a href="gallery.html" class="nav-link px-2 text-muted">Gallery</a></li>
+              <li class="nav-item"><a href="#fun-facts" class="nav-link px-2 text-muted">Fun Facts</a></li>
               <li class="nav-item"><a href="https://t.me/thecoindad" class="nav-link px-2 text-muted">Contact</a></li>
-
-            </ul> -->
+            </ul>
           <p class="text-center"><a href="https://t.me/thecoindad"><i
                 class="text-white fab fa-telegram fa-2x p-2"></i></a><a href="https://twitter.com/TheCoinDad"><i
                 class="text-white fab fa-twitter fa-2x p-2"></i></a></p>
